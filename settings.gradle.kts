@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "OnTest"
+rootProject.name = "User List"
 include(":app")

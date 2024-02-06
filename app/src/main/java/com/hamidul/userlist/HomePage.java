@@ -610,6 +610,7 @@ public class HomePage extends Fragment {
         }
 
 
+
     }
 
     private void toastMessage (String message){
