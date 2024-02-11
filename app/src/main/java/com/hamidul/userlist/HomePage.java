@@ -157,7 +157,7 @@ public class HomePage extends Fragment {
                         String mobile = edMobile.getText().toString();
                         String email = edEmail.getText().toString();
 
-                        String url = "https://smhamidulcodding.000webhostapp.com/on_test/data_insert.php?n="+name+"&m="+mobile+"&e="+email;
+                        String url = "https://smhamidulcodding.000webhostapp.com/practice/insert_data.php?n="+name+"&m="+mobile+"&e="+email;
 
                         onApp.setVisibility(View.VISIBLE);
 
@@ -223,7 +223,7 @@ public class HomePage extends Fragment {
 
         arrayList = new ArrayList<>();
 
-        String url = "https://smhamidulcodding.000webhostapp.com/on_test/view.php";
+        String url = "https://smhamidulcodding.000webhostapp.com/practice/view.php";
 
         progressBar.setVisibility(View.VISIBLE);
 
@@ -493,7 +493,7 @@ public class HomePage extends Fragment {
                                             String mobile = edMobile.getText().toString();
                                             String email = edEmail.getText().toString();
 
-                                            String url = "https://smhamidulcodding.000webhostapp.com/on_test/update.php?n="+name+"&m="+mobile+"&e="+email+"&id="+id;
+                                            String url = "https://smhamidulcodding.000webhostapp.com/practice/update.php?n="+name+"&m="+mobile+"&e="+email+"&id="+id;
 
                                             onApp.setVisibility(View.VISIBLE);
 
@@ -538,7 +538,7 @@ public class HomePage extends Fragment {
                                                 @Override
                                                 public void onClick(DialogInterface dialog, int which) {
                                                     onApp.setVisibility(View.VISIBLE);
-                                                    String url = "https://smhamidulcodding.000webhostapp.com/on_test/delete.php?id="+id;
+                                                    String url = "https://smhamidulcodding.000webhostapp.com/practice/delete.php?id="+id;
 
                                                     StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
                                                         @Override
