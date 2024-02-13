@@ -131,15 +131,33 @@ public class HomePage extends Fragment {
                                 eNotMach=true;
                             }
 
+                            if (mobile.length()<11 && mobile.length()>0){
+                                mobileLayout.setHelperText("Input 11 digit Number");
+                            }else {
+                                mobileLayout.setHelperText(null);
+                                mobileLayout.setHelperTextEnabled(false);
+                            }
+
 
                         }//for loop end
 
-                        button.setEnabled(!name.isEmpty() && !mobile.isEmpty() && !email.isEmpty() && mNotMach && eNotMach);
+                        button.setEnabled(!name.isEmpty() && mobile.length()==11 && mobile.startsWith("01") && !email.isEmpty() && mNotMach && eNotMach);
 
                     }
 
                     @Override
                     public void afterTextChanged(Editable s) {
+
+                        if (edMobile.getText().toString().length()>0){
+                            if (!s.toString().startsWith("0")){
+                                s.delete(0,1);
+                            }
+                        }
+                        if (edMobile.getText().toString().length()>1) {
+                            if (!s.toString().startsWith("01")){
+                                s.delete(1,2);
+                            }
+                        }
 
                     }
                 };
