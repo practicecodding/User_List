@@ -42,6 +42,8 @@
         app:boxStrokeColor="@color/black"
         app:endIconTint="@color/black"
         app:endIconMode="clear_text"
+        app:helperTextTextColor="@color/black"
+        app:placeholderText="01xxxxxxxxx"
         >
 
         <com.google.android.material.textfield.TextInputEditText

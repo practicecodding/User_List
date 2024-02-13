@@ -148,13 +148,15 @@ public class HomePage extends Fragment {
                     @Override
                     public void afterTextChanged(Editable s) {
 
-                        if (edMobile.getText().toString().length()>0){
-                            if (!s.toString().startsWith("0")){
+                        String mobile = edMobile.getText().toString();
+
+                        if (mobile.length()>0){
+                            if (!mobile.startsWith("0")){
                                 s.delete(0,1);
                             }
                         }
-                        if (edMobile.getText().toString().length()>1) {
-                            if (!s.toString().startsWith("01")){
+                        if (mobile.length()>1) {
+                            if (!mobile.startsWith("01")){
                                 s.delete(1,2);
                             }
                         }
