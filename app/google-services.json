@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562958051610",
+    "project_id": "user-list-3b85d",
+    "storage_bucket": "user-list-3b85d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562958051610:android:22a2c6b4500a83aefda4a3",
+        "android_client_info": {
+          "package_name": "com.hamidul.userlist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgCpS2kIf-y0TgYWs433y6mAIwbK3r2Qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

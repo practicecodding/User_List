@@ -1,5 +1,6 @@
 plugins {
     id("com.android.application")
+    id ("com.google.gms.google-services")
 }
 
 android {
@@ -39,6 +40,9 @@ dependencies {
 
     implementation("com.android.volley:volley:1.2.1")
     implementation("com.airbnb.android:lottie:6.3.0")
+
+    implementation(platform("com.google.firebase:firebase-bom:32.7.2"))
+    implementation("com.google.firebase:firebase-analytics")
 
     
 }

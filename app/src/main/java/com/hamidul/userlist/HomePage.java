@@ -61,8 +61,8 @@ public class HomePage extends Fragment {
     FloatingActionButton fab;
     ProgressBar onApp;
     Toast toast;
-    boolean mNotMach;
-    boolean eNotMach;
+    boolean mNotMach = true;
+    boolean eNotMach = true;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 

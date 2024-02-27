@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.hamidul.userlist" />
+                  <option name="mobileSdkAppId" value="1:562958051610:android:22a2c6b4500a83aefda4a3" />
+                  <option name="projectId" value="user-list-3b85d" />
+                  <option name="projectNumber" value="562958051610" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
